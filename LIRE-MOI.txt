@@ -1,0 +1,37 @@
+PORTFOLIO AZADEH AHMADI — DÉPLOIEMENT
+
+Site statique complet en anglais (par défaut), français et dari/persan (RTL).
+Orientation : candidatures internationales en master de Computer Science.
+
+1. Décompressez le ZIP.
+2. Si votre domaine change, adaptez les URL SEO avant publication :
+   python configurer-domaine.py https://votre-domaine.fr
+   (ou python3 selon votre ordinateur).
+3. Téléversez tout le contenu du dossier décompressé à la racine de votre
+   hébergement. index.html doit être à la racine. Aucune compilation.
+4. Conservez les dossiers fr/, fa/, documents/ et toutes les images,
+   le fichier styles.css, site.js, les favicons et les fichiers SEO.
+5. Vérifiez les trois langues, les thèmes, les fenêtres de projet et le CV.
+
+Pour tester localement, depuis le dossier décompressé :
+   python -m http.server 8000
+Puis ouvrez http://localhost:8000 dans votre navigateur.
+Un double-clic sur index.html ne permet pas de tester tous les chemins.
+
+CONTENU ET SOURCES
+Le CV original fourni est disponible dans documents/azadeh-ahmadi-cv.pdf.
+Les textes reprennent les faits du CV et le projet d’études de la lettre.
+La présentation du master est généralisée à l’international : elle ne reprend
+pas la candidature nominative à l’Université de Padoue.
+Le Bachelor est indiqué comme attendu en juin 2027, pas encore obtenu.
+Les illustrations des projets sont des schémas, pas des captures réelles.
+Les niveaux de langue et scores de tests non fournis n’ont pas été inventés.
+Le CV téléchargeable reste le document anglais original.
+
+TECHNIQUE
+HTML, CSS et JavaScript sans dépendance ni compilation.
+Interface adaptée aux mobiles, tablettes et ordinateurs.
+Menu mobile en panneau bas, thème clair/sombre, trois pages statiques de langue.
+Logo AA, favicons, aperçu de partage, métadonnées, JSON-LD et sitemap multilingue.
+Pour le référencement, le site doit être accessible publiquement sans connexion.
+Les réglages SEO ne garantissent pas l’indexation ni le classement.

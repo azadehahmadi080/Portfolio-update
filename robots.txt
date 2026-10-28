@@ -4,4 +4,4 @@ Allow: /
 User-agent: OAI-SearchBot
 Allow: /
 
-Sitemap: https://azadeh-ahmadi-academic.arcanecomet6.chatgpt.site/sitemap.xml
+Sitemap: https://azadehahmadi080.github.io/Portfolio-update/sitemap.xml
